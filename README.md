@@ -1,6 +1,8 @@
 # TextAnalyzer
 Simple application for reading and analyzing texts
 
+[![.NET](https://github.com/chiefi/TextAnalyzer/actions/workflows/dotnet.yml/badge.svg)](https://github.com/chiefi/TextAnalyzer/actions/workflows/dotnet.yml)
+
 ### Features
 - Reads text from local file or from web adress
 - Parses text and prints word statistics
