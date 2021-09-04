@@ -31,7 +31,7 @@ namespace TextAnalyzer.Tests
             var filterService = new FilterService();
             var parser = new DocumentParser(filterService);
 
-            var source = "Texts\\Sample.txt";
+            var source = "Texts/Sample.txt";
             var text = File.ReadAllLines(source);
 
             var task = parser.ParseAsync(source, text);
@@ -67,7 +67,7 @@ namespace TextAnalyzer.Tests
             var filterService = new FilterService();
             var parser = new DocumentParser(filterService);
 
-            var source = "Texts\\45839.txt";
+            var source = "Texts/45839.txt";
             var text = File.ReadAllLines(source);
 
             var task = parser.ParseAsync(source, text);
